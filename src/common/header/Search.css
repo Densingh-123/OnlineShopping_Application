@@ -1,0 +1,44 @@
+/* Default styles */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: black;
+    color: brown;
+  }
+  
+  body.dark-mode ::selection {
+    background-color: tomato;
+    color: white;
+  }
+  
+  /* Additional styles for active header */
+  .search.active {
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Theme toggle button */
+  .theme-toggle {
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid currentColor;
+    padding: 5px 10px;
+    cursor: pointer;
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    padding-left: 10px;
+    margin-left: 25px;
+  border: none;
+  background-color:#f4f4f4;
+  }
+  
+  .theme-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
